@@ -284,7 +284,25 @@ label[for='toggle-all'] {
 .filters li {
 	display: inline;
 }
-
+.search {
+	margin-left: 600px !important;
+	padding: 16px 16px 16px 80px;
+	position: relative;
+	width: 50%;
+	font-size: 24px;
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: 1.6em;
+	border: 0;
+	color: inherit;
+	padding: 6px;
+	text-align: left;
+	box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 .filters li a {
 	color: inherit;
 	margin: 3px;
